@@ -1,0 +1,31 @@
+map:
+  documents:
+   map:
+    source-dir:
+     type: str
+  vectordatabase:
+   map:
+    dbname:
+     type: str
+  models:
+   map:
+    embedding:
+     type: str
+    reranker:
+     type: str
+  threadpool:
+   map:
+    threadpool-workers: 
+     type: int
+  similaritysearch:
+   map:
+    top-docs: 
+     type: int
+  chunks:
+   map:
+    chunk-size: 
+     type: int
+    chunk-overlap: 
+     type: int
+    chunk-overlap-all: 
+     type: bool

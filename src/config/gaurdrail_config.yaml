@@ -1,0 +1,7 @@
+mongodb_uri: "mongodb+srv://kritaka_user:q3DCrlV5gg2xZZYr@cluster0.jkkz8m5.mongodb.net/admin?appName=Cluster0"
+llamaguard_model:  "/home/aisearch/projects/GaurdRaaS/src/Models/model_llamaguard_7b"
+llamaguard_tokenizer: "/home/aisearch/projects/GaurdRaaS/src/Models/tokenizer_llamaguard_7b"
+llamaguard_policy:
+  competitor_list: 
+nemo_input_prompt: /home/aisearch/projects/GaurdRaaS/src/processor/nemo_guardrails/nemoguard_input_prompt
+nemo_output_prompt: /home/aisearch/projects/GaurdRaaS/src/processor/nemo_guardrails/nemoguard_output_prompt
